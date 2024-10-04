@@ -87,9 +87,11 @@ Pass the current mood as a prop from the parent to the MoodDisplay component.
 Clicking different mood buttons should update the display with the correct mood and emoji.
 Use this object with emojis:
 
+```js
 const moodEmojiMap = {
   Happy: "😊",
   Sad: "😢",
   Excited: "🤩",
   Tired: "😴",
 }
+```
