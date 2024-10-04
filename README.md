@@ -95,3 +95,4 @@ const moodEmojiMap = {
   Tired: "😴",
 }
 ```
+## There are 2 exercies in this project. Please remove the necessary comments for the exercises to work; e.g the "family" object in the App.jsx file.
