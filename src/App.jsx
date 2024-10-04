@@ -1,5 +1,6 @@
+/* eslint-disable react/no-children-prop */
 import './App.css'
-
+import Parent from './components/Parent/Parent';
 const family = {
   name: "John (Parent)",
   children: [
@@ -19,6 +20,10 @@ const family = {
   ],
 };
 function App() {
-  
+  return (
+    <div>
+      <Parent name={family.name} children={family.children} />
+    </div>
+  );
 }
 export default App
