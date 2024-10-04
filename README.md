@@ -69,3 +69,27 @@ const moodEmojiMap = {
   Tired: "😴",
 }
 ```
+Exercise 2: Mood Tracker
+Objective:
+
+Create a Mood Tracker app where the user can select their current mood from a set of buttons. The app should display the selected mood and a corresponding emoji.
+
+Components:
+
+MoodSelector: Contains buttons for different moods (e.g., Happy, Sad, Excited, Tired). When a button is clicked, it updates the current mood in the parent component using useState.
+
+MoodDisplay: Receives the current mood as a prop and displays the mood text and an emoji that represents the mood.
+
+Requirements:
+
+Use the useState hook to track the current mood.
+Pass the current mood as a prop from the parent to the MoodDisplay component.
+Clicking different mood buttons should update the display with the correct mood and emoji.
+Use this object with emojis:
+
+const moodEmojiMap = {
+  Happy: "😊",
+  Sad: "😢",
+  Excited: "🤩",
+  Tired: "😴",
+}
