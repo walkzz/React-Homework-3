@@ -19,6 +19,14 @@ const family = {
     },
   ],
 };
+
+const moodEmojiMap = {
+  Happy: "😊",
+  Sad: "😢",
+  Excited: "🤩",
+  Tired: "😴",
+};
+
 function App() {
   return (
     <div>
